@@ -1,0 +1,22 @@
+------------------------------------------
+THE LAST WORLD WAR
+------------------------------------------
+
+I) Compilando e executando o jogo:
+
+1 - Entre na pasta do jogo e utilize o comando make.
+2 - Execute o arquivo LastWorldWar ou utilize o comando make init.
+*É necessário o compilador 'gcc' as bibliotecas 'SDL 1.2' e 'SDL_IMAGE 1.2'.
+
+II) Comandos do jogo:
+
+Botões
+0 -> Muda modo de visualização
+1 -> Selecionar unidade 1
+2 -> Selecionar unidade 2
+3 -> Unidade 2 atacar unidade 1
+
+Versoes 
+
+0.3
+Carregamento de imagens modificado no arquivo biblioteca.cpp, funcoes: load_image, apply_surface

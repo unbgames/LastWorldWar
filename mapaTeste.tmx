@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileFronteira1" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira1.png" width="204" height="172"/>
+ </tileset>
+ <tileset firstgid="31" name="tileFronteira2" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira2.png" width="207" height="174"/>
+ </tileset>
+ <tileset firstgid="61" name="tileFronteira3" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira3.png" width="210" height="175"/>
+ </tileset>
+ <tileset firstgid="91" name="tileFronteira4" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira4.png" width="210" height="176"/>
+ </tileset>
+ <tileset firstgid="121" name="tileFronteira5" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira5.png" width="210" height="165"/>
+ </tileset>
+ <tileset firstgid="151" name="tileFronteira6" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira6.png" width="210" height="165"/>
+ </tileset>
+ <tileset firstgid="181" name="tileFronteira7" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira7.png" width="209" height="177"/>
+ </tileset>
+ <tileset firstgid="211" name="tileFronteira8" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileFronteira8.png" width="209" height="177"/>
+ </tileset>
+ <tileset firstgid="241" name="tileMarPetroleo" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileMarPetroleo.png" width="209" height="177"/>
+ </tileset>
+ <tileset firstgid="271" name="tileOuro1" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro1.png" width="210" height="175"/>
+ </tileset>
+ <tileset firstgid="301" name="tileOuro2" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro2.png" width="210" height="175"/>
+ </tileset>
+ <tileset firstgid="331" name="tileOuro3" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro3.png" width="210" height="175"/>
+ </tileset>
+ <tileset firstgid="361" name="tileOuro4" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro4.png" width="210" height="177"/>
+ </tileset>
+ <tileset firstgid="391" name="tileOuro5" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro5.png" width="210" height="177"/>
+ </tileset>
+ <tileset firstgid="421" name="tileOuro6" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro6.png" width="211" height="177"/>
+ </tileset>
+ <tileset firstgid="451" name="tileOuro7" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro7.png" width="211" height="177"/>
+ </tileset>
+ <tileset firstgid="481" name="tileOuro9" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileOuro9.png" width="205" height="172"/>
+ </tileset>
+ <tileset firstgid="511" name="tileTerra" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/tileTerra.png" width="209" height="177"/>
+ </tileset>
+ <tileset firstgid="541" name="arvore" tilewidth="32" tileheight="32">
+  <image source="Desenhos Jogo/arvore.png" trans="ffffff" width="120" height="154"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztmstPFEEQh4v4iqiRkAgXDxvfelAPSoJ6JkHUCBiVKyDgA1SSvfiKr/iKeuBfMJ6MB+Ofph7Ug1ZlpkLRWz2zu8xBe35f+GV2B6ZZ6puenm5mkIgGK0qjy+NWTNbz+1NA/5a3nJE85zjnOReC7Ke1tVsxx4yYff2cUc5ZzljQ3pizL2yz06TqQ2r0kTPBueTkM7U68Xzs4UxxLnLG8/Ym8zbGnX39BB+K9SF1vOzkK+cTZwNnI5X7OMQ5TJmTvU5mTLw2u3WSAtaH1lE9zHLuc57m+cLppfg1S98f5Rwj30XoY2ukzW6SAtaH1nGaMheSJ5T1DfXRR+U+TnCO5ynzsTPSZl3dWB9Sx2la60MciAu5Zu3iDFC5j1Pk+5hxEmtzPePH/+xEXUikjvOcBc51zo08Nzm3OK8oXpPw/up6cOyCs28+/wxVjB0pjR/q4wBnMd8289zh3OUsk3+/G6ZBmY/bwbErzr7FNtqrs49mJOH1yOsTtm/YVD0upDhmWNr1Yesdq0fMhTc3rNpFiv1jmOI+pI5eXUMHoQ+Z08hYvo9W54FVzTnq7CNW1zIfOqc5wrliUtWco64+vLrqeV7kQ+c0cu87ZY6tcs6R4ngeGzs0tq5aU1mfkvO8yIfMaU5yhijzIQnnHB843zjfOT/y93X2IZGax/qHxKur+JDzvMiHzGlOc86Y48LxQ+r/k/OL85viPrzxq0np+fDqr24a+darq/iQ87yT65XGjh9S/z/yYXr4q8f3oddLOR/s+nAvpecj5qRhXkt979Hamj6i4vFc4vUriR0/pP6b2MNmzpaIj4OUeZV2Jk36KG0fw5HXUtvHtFrPZ1TuQo8J+5U3fmxjD9s5OyI+tJ8Nmcha5G6qr48XnJeUrWO9pvZ8aL+SdfsHnIeU9atO76HkeilrXuEa2ACl7cN6CH1I3nHeU/sutI/Iur2sE0u/ek6d+5Dfu0yta2BLlJ6Pon4R+ugmYb96Q93NM8LPtGS+l5oPOwcRHw2qzoe0rf2qGw/Wh/c+pf5hHRTNP7pxsp7ad5LUfLRzv6sZpdZ5mXUQe84ntr+T533s50jZR1ka+VafP5G1kquU3btOUPb/Xfnf62zw+lrJ9+aos7XeOviwzxZKirzY50+sk5iD0MW087PipN21Xs9HiuslNs2C9zonK/MxF7zWbfgzuu2j1s+hz5HW7XlRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Pv8BXY6D+4=
+  </data>
+ </layer>
+ <objectgroup name="Teste" width="100" height="100"/>
+</map>
